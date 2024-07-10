@@ -1,0 +1,60 @@
+/* src/components/MusicPlayer.css */
+
+
+.music-container {
+    margin-top: 50px;
+    max-width: 600px;
+    background: aquamarine;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+  }
+  
+  .music-header {
+    background: rgb(211, 88, 39);
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .music-header h1 {
+    margin: 0;
+    font-size: 1.8em;
+  }
+  
+  .list-group-item {
+    background: rgba(248, 249, 250, 0.8);
+    border: none;
+    padding: 15px 20px;
+    transition: background 0.3s;
+    cursor: pointer;
+  }
+  
+  .list-group-item:hover {
+    background: rgba(222, 226, 230, 0.8);
+  }
+  
+  .audio-player {
+    text-align: center;
+    padding: 20px;
+    background: rgba(248, 249, 250, 0.8);
+  }
+  
+  audio {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .btn-play {
+    font-size: 1.5em;
+    color: #48c6ef;
+    cursor: pointer;
+  }
+  
+  .btn-play:hover {
+    color: #6f86d6;
+  }
+  
